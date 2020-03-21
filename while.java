@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// faÁa um programa para ler um numero indeterminado de dados, contendo cada um, a idade de um individuo.
-		//O ultimo dado que n„o entrara nos calculos, contem um valor de idade negativa. calcular e imprimir a idade 
+		// fa√ßa um programa para ler um numero indeterminado de dados, contendo cada um, a idade de um individuo.
+		//O ultimo dado que n√£o entrara nos calculos, contem um valor de idade negativa. calcular e imprimir a idade 
 		//media deste grupo de individuos. Se for entrado um valor negativo na primeira vez, mostrar a mensagem 
 		//" impossivel calcular"
 		Locale.setDefault(Locale.US);
@@ -14,12 +14,12 @@ public class Main {
 		int idade = sc.nextInt();
 		int quantidade = 0;//ira conta quantas idade ira o programa ler antes de chega no numero negativo
 		double media = 0;
-		while (idade > 0) {//enquanto essa funÁ„o acontecer ele ira executa as funÁıes abaixo
+		while (idade > 0) {//enquanto essa fun√ß√£o acontecer ele ira executa as fun√ß√µes abaixo
 			quantidade += idade;// ele ira fazer a soma de todas as idade digitada.
 			media += 1; // ele ira conta a quantidade de idade foi digitado  
 			idade = sc.nextInt();
 		}
-		if (media > 0) {//se eu tiver digitado pelo menos 1 idade valida ele ira fazer essa funÁ„o
+		if (media > 0) {//se eu tiver digitado pelo menos 1 idade valida ele ira fazer essa fun√ß√£o
 			media = (double)quantidade / media;//pega a quantidade total de idade digitada e dividir pelas quantidades de idade digitada
 			System.out.printf("%.2f%n", media);
 		} else {//se eu digitar um valor negativo ele mostra a mensagem abaixo.
