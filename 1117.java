@@ -1,8 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-//Faça um programa que leia as notas referentes às duas avaliações de um aluno. Calcule e imprima a média semestral.
-//Faça com que o algoritmo só aceite notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser
+//FaÃ§a um programa que leia as notas referentes Ã s duas avaliaÃ§Ãµes de um aluno. Calcule e imprima a mÃ©dia semestral.
+//FaÃ§a com que o algoritmo sÃ³ aceite notas vÃ¡lidas (uma nota vÃ¡lida deve pertencer ao intervalo [0,10]). Cada nota deve ser
 //validada separadamente.
 public class Main {
 
