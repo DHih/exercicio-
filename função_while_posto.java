@@ -1,10 +1,10 @@
 import  java.util.Scanner ;
 
-// Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes.
-//Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 
-//1.Álcool 2.Gasolina 3.Diesel4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4)
-//deve ser solicitado um novo código (até que seja válido). O programa será encerrado quando o código informado
-//for o número 4.
+// Um Posto de combustÃ­veis deseja determinar qual de seus produtos tem a preferÃªncia de seus clientes.
+//Escreva um algoritmo para ler o tipo de combustÃ­vel abastecido (codificado da seguinte forma: 
+//1.Ãlcool 2.Gasolina 3.Diesel4.Fim). Caso o usuÃ¡rio informe um cÃ³digo invÃ¡lido (fora da faixa de 1 a 4)
+//deve ser solicitado um novo cÃ³digo (atÃ© que seja vÃ¡lido). O programa serÃ¡ encerrado quando o cÃ³digo informado
+//for o nÃºmero 4.
 public  class  Main {
 
 	public  static  void  main ( String [] args ) {
@@ -16,7 +16,7 @@ public  class  Main {
 		int diesel =  0 ;
 		
 		int tipo = sc . nextInt ();
-		//com essa linha de codico ser você jogar o numero 4  ele não vai ser diferente e sim igual. com isso ele pula
+		//com essa linha de codico ser vocÃª jogar o numero 4  ele nÃ£o vai ser diferente e sim igual. com isso ele pula
 		//o WHILE e vai direto para linha 40.
 		while (tipo !=  4 ) {
 			if (tipo ==  1 ) {
